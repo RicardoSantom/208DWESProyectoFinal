@@ -18,6 +18,9 @@ body{
     width: 100vw;
     height: 100vh;
 }
+main{
+    width: 100%;
+}
 #bienvenida{
     text-align: center;
     font-family: 'LatoLightItalic';
@@ -47,7 +50,7 @@ body{
     color: #99a0a1;
     font-size: 20px;
 }
-#iniciarsesion{
+#login{
     color: transparent;
     margin-top: 0.5rem;
 }
@@ -67,6 +70,15 @@ body{
     color: #99a0a1;
     border-bottom: 2px solid #99a0a1 ;
     margin-bottom: 2.5rem;
+    width: 400px;
+}
+#divBienvenidaTabla,#divBienvenidaInicio,#divBienvenidaConexiones{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: flex-end;
+    justify-content: flex-start;
+    flex-wrap: wrap;
 }
 table caption{
     font-family: 'LatoLight';

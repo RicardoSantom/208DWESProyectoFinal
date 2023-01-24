@@ -9,7 +9,7 @@
  */
 //Si se selecciona cerrar sesión, destruye la sesión y vuelve a la página de login.
 if (isset($_REQUEST['salir'])) {
-    $_SESSION['paginaEnCurso'] = 'inicioPublico';
+    $_SESSION['paginaEnCurso'] = 'iniciopublico';
     $_SESSION['user208DWESLoginLogoff'] = null;
     session_destroy();
     header('Location:index.php');
@@ -23,4 +23,3 @@ if (isset($_REQUEST['detalle'])) {
     header("Location: index.php");
 }
 require_once $aVistas['layout'];
-

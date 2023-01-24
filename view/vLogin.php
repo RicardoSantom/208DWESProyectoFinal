@@ -26,7 +26,7 @@
     </ul>
     <form id="formInicioPublico" method="post">
         <fieldset id="fieldsetInicioPublico">
-            <input type="submit"  id="iniciarsesion" value="" name="iniciarsesion">
+            <input type="submit"  id="login" value="" name="login2">
         </fieldset>
     </form>
 </header>
@@ -37,7 +37,7 @@
             <h5 style="opacity: 0 !important;">--------</h5>
             <input type="text" name="usuario" placeholder="Usuario" class="entradadatos"/>
             <input type="password" name="password" placeholder="Contraseña" id="password" class="entradadatos" />
-            <div class="inicarSesionLogin"><input type="submit" id="login" value="Iniciar Sesión" name="login"></div>
+            <div class="inicarSesionLogin"><input type="submit" id="iniciarsesion" value="Iniciar Sesión" name="login"></div>
         </div>
         <div class="divRegistroCancelar">
             <h2>SOY NUEVO EN APLICACIÓN LOGINLOGOFF</h2>

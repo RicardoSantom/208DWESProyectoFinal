@@ -19,7 +19,7 @@ if (isset($_REQUEST['cancelar'])) {
     exit;
 }
 if (isset($_REQUEST['login'])) {
-    //Si se ha pulsado el botón login
+    //Si se ha pulsado el botón Iniciar Sesion
     //Inicializo array para guardar valores de dos input homónimos a las claves
     //de este array asociativo
     $aErrores = [

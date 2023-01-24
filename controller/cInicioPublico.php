@@ -7,7 +7,7 @@
  * Controlador inicio público
  */
 //Si se pulsa iniciar sesión, va a la vista de login
-if(isset($_REQUEST['iniciarsesion'])){
+if(isset($_REQUEST['login'])){
     //Si se ha pulsado sobre iniciar sesión, guarda en valor de la página en cuso en la superglobal $_SESSION
     $_SESSION['paginaAnterior']=$_SESSION['paginaEnCurso'];
     //Cambia la página en curso a login

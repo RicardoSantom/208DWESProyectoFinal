@@ -27,7 +27,7 @@
 </header>
 <main>
     <form name="formInicioPrivado" id="formInicioPrivado" action="<?php echo $_SERVER['PHP_SELF']; ?>" method="post">
-        <input type="submit"  id="iniciarsesion" value="d" name="iniciarsesion">
+        <input type="submit"  id="login" value="" name="login">
         <input type="submit" id="detalle" value="Detalle" name="detalle">
         <input type="submit" id="salirInicioPrivado" value="Salir" name="salir">
     </form>
@@ -65,10 +65,6 @@
                         <tr>
                             <td>Código usuario</td>
                             <td><?php echo $_SESSION['user208DWESLoginLogoff']->getCodUsuario() ?></td>
-                        </tr>
-                        <tr>
-                            <td>Password</td>
-                            <td><?php echo $_SESSION['user208DWESLoginLogoff']->getPassword() ?></td>
                         </tr>
                         <tr>
                             <td>Descripción usuario</td>

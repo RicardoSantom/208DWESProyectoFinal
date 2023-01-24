@@ -73,7 +73,7 @@ h4,h5{
     border-collapse: collapse;
     text-align: center;
     color: #516D99;
-    margin: 0 auto;
+    margin: 2rem auto;
     box-shadow: 12px 8px 2px 2px #516D99;
     border: groove;
 }
@@ -99,10 +99,11 @@ td:first-child{
     text-indent: 2%;
     line-height: 2em;
 }
-td,th{
+.tablaGlobales td,.tablaGlobales th{
     border: 2px #666666 solid;
-    height: 2em;
+    min-height: 2em;
     font-weight: bold;
+    font-size: 14px;
 }
 td a{
     color: #666666;

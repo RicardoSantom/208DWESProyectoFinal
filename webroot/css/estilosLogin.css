@@ -69,7 +69,7 @@ body{
 .divRegistroCancelar:last-of-type input{
     width: 300px;
 }
-#login,#registrarse{
+#iniciarsesion,#registrarse{
     background-color: #344079;
     color: white;
     font-weight: bold;

@@ -23,4 +23,3 @@ if (!isset($_SESSION['paginaEnCurso'])) {
 //Inclusión de array de controladores con clave igual al valor de lo guardado
 //en la sesión.
 require_once $aControladores[$_SESSION['paginaEnCurso']];
-require_once $aVistas[$_SESSION['paginaEnCurso']];
