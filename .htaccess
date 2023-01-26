@@ -1,4 +1,4 @@
 DirectoryIndex index.php
-ErrorDocument 404 /pageerror/404.html
-ErrorDocument 403 /pageerror/403.html
+ErrorDocument 404 "Error 404: Archivo no encontrado"
+ErrorDocument 403 "Error 404: Archivo no encontrado" /pageerror/403.html
 Redirect 302 /google "https://www.google.es"
