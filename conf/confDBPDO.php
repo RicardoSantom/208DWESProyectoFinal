@@ -9,7 +9,7 @@
  */
 //Conexión en curso.
 define('DSN', 'mysql:host=192.168.1.77;dbname=DB208DWESLoginLogoff');
-define('NOMBREUSUARIO', 'user208DWESLoginLogoff');
+define('USER', 'user208DWESLoginLogoff');
 define('PASSWORD', 'paso');
 /*
  * Declaración de variables e inicialización con los valores correctos 
