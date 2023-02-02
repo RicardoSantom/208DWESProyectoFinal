@@ -26,7 +26,7 @@
     </ul>
     <form id="formInicioPublico" method="post">
         <fieldset id="fieldsetInicioPublico">
-            <input type="submit"  id="login" value="" name="login2">
+            <input type="submit"  id="login" value="login" name="login2">
         </fieldset>
     </form>
 </header>

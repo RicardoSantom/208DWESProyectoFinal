@@ -22,7 +22,8 @@ $aControladores = [
         "registro" => "controller/cRegistro.php",
         "micuenta" => "controller/cMiCuenta.php",
         "cambiarpassword" => "controller/cCambiarPassword.php",
-        "borrarcuenta" => "controller/cBorrarCuenta.php"
+        "borrarcuenta" => "controller/cBorrarCuenta.php",
+        "rest" => "controler/cREST"
     ];
     $aVistas = [
         "layout" => "view/Layout.php",        
@@ -35,7 +36,8 @@ $aControladores = [
         "registro" => "view/vRegistro.php",
         "micuenta" => "view/vMiCuenta.php",
         "cambiarpassword" => "view/vCambiarPassword.php",
-        "borrarcuenta" => "view/vBorrarCuenta.php"
+        "borrarcuenta" => "view/vBorrarCuenta.php",
+        "rest" => "view/vREST"
     ]
 ?>
 
